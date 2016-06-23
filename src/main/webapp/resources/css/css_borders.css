@@ -1,0 +1,114 @@
+/* ***** Inicio Marcos y Bordes ** */
+.fnd_top_left {
+    background-image:  url(../imagen/main/fnd_top_left.gif);
+    background-position: right;
+    background-repeat: no-repeat;  
+    width:             18px;
+    height:            9px;
+}
+.fnd_top_middle {
+	background-image: url(../imagen/main/fnd_top_middle.gif);
+	background-repeat: repeat-x;
+        background-position: center;
+	width: 9px;
+	height: 9px;
+}
+.fnd_top_right {
+    background-image:  url(../imagen/main/fnd_top_right.gif);
+    background-repeat: no-repeat;
+    width:             9px;
+    height:            9px;
+}
+
+
+
+
+
+.fnd_middle_left {
+    
+    background-image:  url(../imagen/main/fnd_left2.gif);
+    background-position: right;    
+    background-repeat: repeat-y;
+    width:             18px;
+}
+.fnd_middle_right {
+    background-image:  url(../imagen/main/fnd_middle_right.gif);
+    background-repeat: repeat-y;
+    width:             9px;
+}
+
+
+
+
+.fnd_bottom_left {
+    background-image:  url(../imagen/main/fnd_bottom_left.gif);
+    background-position: right;
+    background-repeat: no-repeat;
+    width:             19px;
+    height:            9px;
+}
+.fnd_bottom_middle {
+    background-image:  url(../imagen/main/fnd_bottom_middle.gif);
+    background-repeat: repeat-x;
+    width:             9px;
+    height:            9px;
+}
+.fnd_bottom_right {
+    background-image:  url(../imagen/main/fnd_bottom_right.gif);
+    background-repeat: no-repeat;
+    width:             9px;
+    height:            9px;
+}
+/* *otro* */
+.fnd_top_leftc {
+    background-image:  url(../imagen/main/fnd_top_leftc.gif);
+    background-repeat: no-repeat;
+    width:             9px;
+    height:            9px;
+}
+.fnd_top_middlec {
+    background-image:  url(../imagen/main/fnd_top_middlec.gif);
+    background-repeat: repeat-x;
+    width:             9px;
+    height:            9px;
+    
+}
+.fnd_top_rightc {
+    background-image:  url(../imagen/main/fnd_top_rightc.gif);
+    background-repeat: no-repeat;
+    width:             9px;
+    height:            9px;
+}
+.fnd_middle_leftc {
+    width:             16px;
+    background-image:  url(../imagen/main/fnd_middle_leftc.gif);
+    background-color:  white;
+    background-repeat: repeat-y;
+    margin:            0px;
+    padding:           0px;
+}
+.fnd_middle_rightc {
+    background-image:  url(../imagen/main/fnd_middle_rightc.gif);
+    background-repeat: repeat-y;
+    width:             14px;
+}
+.fnd_bottom_leftc {
+    background-image:  url(../imagen/main/fnd_bottom_leftc.gif);
+    background-repeat: no-repeat;
+    width:             9px;
+    height:            9px;
+}
+.fnd_bottom_middlec {
+    background-image:  url(../imagen/main/fnd_bottom_middlec.gif);
+    background-repeat: repeat-x;
+    width:             9px;
+    height:            9px;
+}
+.fnd_bottom_rightc {
+    background-image:  url(../imagen/main/fnd_bottom_rightc.gif);
+    background-repeat: no-repeat;
+    width:             9px;
+    height:            9px;
+}
+
+/* ***** Fin Marcos y Bordes ** */

@@ -1,0 +1,113 @@
+/*
+Template Name: VoIP Business
+Version: 1.0
+Design: Karlo Domic ( karlodomic@gmail.com )
+Code: Slicejack ( www.slicejack.com // info@slicejack.com )
+*/
+
+
+
+#container { width: 900px; margin: 0 auto; }
+
+/* =Header
+----------------------------------------------- */
+#header { height: 80px; position: relative; }
+
+	#header h1 a { display: block; text-indent: -5000px; width: 137px; height: 21px; background: url('../imagen/layout/logo.gif') no-repeat; position: absolute; left: 20px; top: 30px; }
+	
+	#utility-nav { position: absolute; right: 20px; top: 20px; }
+	#utility-nav li { display: inline; }
+	#utility-nav li a { display: block; float: left; font-size: 11px; color: #ffffff; text-decoration: none; padding: 0 5px; background: url('../imagen/nav/utility_nav_divider.gif') left no-repeat; }
+	#utility-nav li a:hover, #utility-nav li a.active { color: #E9F5FE; text-decoration: underline; }
+	#utility-nav li.first-item a { background: none; }
+	
+	#main-nav { background: url('../imagen/nav/main_nav.gif') left no-repeat; margin: 0 -0px; height: 53px; width: 890px; position: absolute; bottom: 11px; padding: 18px 0 0 27px; }
+	#main-nav li { display: inline; }
+	#main-nav li a { display: block; float: left; font-size: 12px; font-weight: bold; color: #fff; text-decoration: none; padding: 12px 20px 0 20px; background: url('../imagen/nav/main_nav_divider.gif') left no-repeat; height: 27px; }
+	#main-nav li.first-item a { background: none; padding-left: 0; }
+	#main-nav li a.active span {  background: url('../imagen/nav/main_nav_active.gif') bottom center no-repeat; height: 31px; display: block; float: left; cursor: pointer; color: #B3640D; }
+	#main-nav li a:hover { color: #B3640D; }
+	#header p.acceso { position: absolute; right: 25px; top: 14px; }
+	#header p.acceso a { display: block; float: left; font-size: 12px; font-weight: bold; color: #fff; text-decoration: none; padding: 12px 20px 0 20px; background: url('../imagen/nav/main_nav_divider.gif') left no-repeat; height: 27px;  }
+	
+/* =Sub Header
+----------------------------------------------- */
+#sub-header { background: url('../imagen/layout/sub_header.gif') no-repeat; width: 900px; position: relative; padding-top: 43px; margin-bottom: 20px; }
+
+	p.breadcrumbs { font-size: 11px; color: #777; position: absolute; top: 14px; left: 20px; }
+	
+	#search { background: url('../imagen/form/search.gif') no-repeat; width: 220px; height: 20px; position: absolute; right: 20px; top: 11px; }
+	#search legend { display: none; }
+	#search .input-text { width: 187px; background: none; border: none; font-size: 11px; color: #999; display: block; float: left; padding: 3px 0 0 9px; }
+	#search .input-button { width: 16px; height: 20px; cursor: pointer; background: none; border: none; }
+	
+	#images { background: #fff; height: 111px;  }
+	#images li { display: block; float: left; margin: 1px 1px 0 0;}
+	#images li.first-item { margin-left: 1px; }
+	#images li.last-item { margin-right: 0; }
+	
+	#directory { background: url('../imagen/layout/directory.gif') bottom no-repeat; padding: 0 0 11px 0; }
+	#directory-inner { background: #f5f5f5 url('../imagen/layout/directory_list.gif') top left no-repeat; padding-bottom: 5px;}
+	#directory ul { width: 159px; float: left; padding: 10px 0 0 20px; }
+	#directory ul li { background: url('../imagen/icons/directory_bullet.gif') left no-repeat; padding-left: 8px; }
+	#directory ul li a { font-size: 11px; color: #666; text-decoration: none; line-height: 1.6; }
+	#directory ul li a:hover, #directory ul li a.active { border-bottom: 1px dotted #333; color: #333; }
+
+/* =Sidebar
+----------------------------------------------- */
+#sidebar { width: 247px; float: left; padding-left: 20px; margin-right: 20px; }
+	#sidebar h2, #main-content h2 { font-size: 20px; color: #2e9eff; margin-bottom: 5px; text-indent: 8px; }
+	#sidebar ul { background: #f4f4f4 url('../imagen/layout/sidebar_li.gif') top repeat-x; }
+	#sidebar ul li { padding: 10px; background: url('../imagen/layout/sidebar_li.gif') bottom repeat-x; line-height: 1.4; }
+	#sidebar ul li img { float: left; padding: 1px; border: 1px solid #ddd; margin-right: 8px; }
+	#sidebar ul li h3 { font-size: 11px; font-weight: bold; color: #ee912a; }
+	#sidebar ul li p { font-size: 11px; color: #999; }
+	#sidebar ul li a { background: url('../imagen/icons/read_more.gif') left no-repeat; padding-left: 12px; color: #5c91c7; font-size: 11px; }
+	#sidebar ul li a:hover { color: #386da4; }
+
+/* =Main Content
+----------------------------------------------- */
+#main-content { width: 592px; float: left; margin-bottom: 20px; }
+	.article-wrapper .article-actions { background: url('../imagen/layout/article_actions.gif') top repeat-x; height: 34px; font-size: 11px; color: #999; padding: 10px 0 0 8px; }
+	.article-wrapper .article-actions li { display: inline; margin-right: 10px; }
+	.article-wrapper .article-actions li img { vertical-align: middle; margin-right: 6px; }
+	.article-wrapper .article-actions li a { color: #666; }
+	.article-wrapper .article-actions li a:hover { text-decoration: underline; }
+	.article-wrapper .article { width: 574px; margin: 0 auto; }
+	.article-wrapper .article h3 { font-size: 16px; font-weight: bold; color: #ee912a; margin-bottom: 6px; }
+	.article-wrapper .article p { color: #666; font-size: 12px; line-height: 1.6; margin-bottom: 10px; }
+	.article-wrapper .article strong { font-weight: bold; }
+	.article-wrapper .article em { font-style: italic; }
+	.article-wrapper .article p a { color: #5c91c7; }
+	.article-wrapper .article p a:hover { color: #3b6691; }
+
+/* =Footer
+----------------------------------------------- */
+#footer { background: url('../imagen/layout/footer.gif') no-repeat; width: 898px; height: 27px; margin: 0 auto 10px auto; clear: both; padding-top:13px; position: relative; }
+	#footer p { font-size: 13px; color: #51504E;}
+	#footer p.copyright { padding-left: 25px; }
+	#footer p.copyright span { color: #5c91c7; }
+	#footer p.authors { position: absolute; right: 25px; top: 14px; }
+	#footer p.authors a { color: #5c91c7; text-decoration: none; } 
+	
+	/*  Personalizado Ing David Mamani Pari */
+	
+	/* boxes */
+	/* boxes */
+.box {background:url(../imagen/layout/border-top.gif) repeat-x left top #f5f5f5;width:100%;color:#878787;position:relative}
+.box .border-bot {background:url(../imagen/layout/border-bot.gif) repeat-x left bottom}
+.box .border-left {background:url(../imagen/layout/border-left.gif) repeat-y left top}
+.box .border-right {background:url(../imagen/layout/border-right.gif) repeat-y right top}
+
+.box .left-top-corner {background:url(../imagen/layout/left-top-corner.gif) no-repeat left top}
+.box .right-top-corner {background:url(../imagen/layout/right-top-corner.gif) no-repeat right top}
+.box .left-bot-corner {background:url(../imagen/layout/left-bot-corner.gif) no-repeat left bottom;width:100%}
+.box .right-bot-corner {background:url(../imagen/layout/right-bot-corner.gif) no-repeat right bottom}
+
+.box .inner {padding:26px 28px 34px 30px}
+.box .icon {position:absolute;right:-12px;bottom:0}
+
+.link1 {display:block;float:left;background:url(../imagen/layout/link1-tail.gif) repeat-x left top;color:#fff;text-decoration:none;}
+.link1 em {display:block;background:url(../imagen/layout/link1-left.gif) no-repeat left top}
+.link1 b {display:block;background:url(../imagen/layout/link1-right.gif) no-repeat right top;padding:7px 15px 7px 15px;font-style:normal}
+
